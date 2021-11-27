@@ -4,7 +4,9 @@
 After the academic dishonesty has been revealed, the previous analysis could be inaccurate. In order to exclude possible mistaken outputs, the following analysis performed.
 
 ## Result
-  - Comparing district summary of both previous and new analysis, insignificant difference have revealed. As we can see from attached image, after removing 9th grade of Thomas High School almost all score indicators decreased. (https://github.com/andgerashchenko/School_District_Analysis/blob/00a0d274fd4e1723cdb9c6e707a2f044242f0d31/Resources/district%20_compare.png) 
+  - Comparing district summary of both previous and new analysis, insignificant difference have revealed. As we can see from attached image, after removing 9th grade of Thomas High School almost all score indicators decreased. 
+  - ![district _compare](https://user-images.githubusercontent.com/79814533/143719551-4b3d559b-495e-481d-933f-9e7a3735eb85.png)
+(https://github.com/andgerashchenko/School_District_Analysis/blob/00a0d274fd4e1723cdb9c6e707a2f044242f0d31/Resources/district%20_compare.png) 
   - The same picture with school summary output. All averages and percentages of Thomas High School slightly decreased. Other schools' indicators remain the same.(https://github.com/andgerashchenko/School_District_Analysis/blob/bf130f82a580ba22003e81e179a0eb911a03c095/Resources/school_summery_compare.png)
   - In order to sort schools by its overall passing scores, the following code used: 'top_schools = per_school_summary_df.sort_values(["% Overall Passing"], ascending=False)'. Form output image we can see that Thomas High School remain on the same position, relatively to other schools.(https://github.com/andgerashchenko/School_District_Analysis/blob/fb291e50b4928bef2dfa8c9badcb6279de77785c/Resources/top5_schools.png). Therefore we can assume that removing 9th grade scores insignificantlyu affected Thomas High School's prefomance.
   - Here below other comparisons of the outputs before and after removing 9th grade:
